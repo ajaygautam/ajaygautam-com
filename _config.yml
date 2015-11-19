@@ -8,15 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Ajay Gautam
 author :
   name : Ajay Gautam
   email : ajay610@gmail.com
   github : ajaygautam
   twitter : AjayGautam42
-  feedburner : feedname#
   linkedin: ajaygautam42
+  # feedburner : feedname#
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -83,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : www.ajaygautam.com
+      short_name : wwwajaygautamcom
     # livefyre :
     #   site_id : 123
     # intensedebate :
