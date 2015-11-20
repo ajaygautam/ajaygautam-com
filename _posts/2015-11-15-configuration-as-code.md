@@ -4,6 +4,7 @@ description: "About Configuration as code"
 featured: images/no_image.png
 layout: post
 comments: true
+category: Configuration as code
 tags: [config-as-code, dev-ops]
 ---
 
@@ -14,6 +15,7 @@ tags: [config-as-code, dev-ops]
 In this context, _configuration_ mostly refers to elements that change often: such as CVS files, JSON config that hold feature flags, Spreadsheets that hold rules that tell a system how to process data.
 
 # Benefits of a Configuration System
+At a high level, a Configuration system is a set of tools build around a versioned data store for configuration data. These tools enable users to manage configuration and performs automated deployment of configuration to their destination locations.
 
 ## Single source of truth
 There is one place and only one place where all the configuration lives. Everybody knows the system of record, and no one looks for or maintains configuration anywhere else.
@@ -31,7 +33,7 @@ Current configuration changes unintentionally broke something? Revert the change
 Version control systems are very good at notifying on events. Tie in tooling around those notifications to enable automation. This makes it easy to validate changes, and auto-magically deploy them to their appropriate locations.
 
 ## Independent release cadence
-An automated configuration management system allows configuration to be released on a separate cadence than the application binaries. This leads to a faster turn around time for configuration changes.
+An automated configuration system allows configuration to be released on a separate cadence than the application binaries. This leads to a faster turn around time for configuration changes.
 
 ## Reduction in environment errors
 Ever run into a situation where a support guy updated a CSV file in production to make a report work correctly, but forgot to save the update / notify anyone about it? The next release will wipe out that change and break functionality (in production!). Automation around configuration management reduces errors and moves companies towards ensuring environments have consistent configuration.
