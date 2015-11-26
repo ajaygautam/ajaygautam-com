@@ -5,6 +5,9 @@ tagline: Building awesome software
 ---
 {% include JB/setup %}
 
+## About me
+I have been professionally developing software since 1995.
+
 ## All Posts
 
 <ul class="posts">
