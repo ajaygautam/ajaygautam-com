@@ -1,6 +1,6 @@
 ---
 title: Configuration as code
-description: "About Configuration as code"
+description: "Introduction to Configuration as code"
 featured: images/no_image.png
 layout: post
 comments: true
