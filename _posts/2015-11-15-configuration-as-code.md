@@ -40,3 +40,6 @@ Ever run into a situation where a support guy updated a CSV file in production t
 
 ## Scalability
 Onboarding new environments becomes faster with an automated system. Create / clone / branch configuration for a new environment, spin up additional resources (hopefully using infrastucture-as-code), and the automation takes over to setup the environment.
+
+## Further reading
+* [Paul Hammant's blog entries about Configuration-as-code](http://paulhammant.com/categories.html#configuration_as_code)
