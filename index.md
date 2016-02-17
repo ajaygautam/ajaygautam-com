@@ -6,7 +6,7 @@ tagline: Building awesome software
 {% include JB/setup %}
 
 ## About
-I have been professionally developing software since 1995, and here I share my thoughts and findings on what it takes to build Enterprise grade, robust software components and systems. Hope you enjoy reading these as much as I enjoyed writing them. Do contact me at [twitter](http://www.twitter.com/ajaygautam42) or [Linked-in](http://www.linkedin.com/in/ajaygautam42)
+I have been professionally developing software since 1995, and here I share my thoughts and findings on what it takes to build Enterprise grade, robust software components and systems. Hope you enjoy reading these as much as I enjoyed writing them. Do contact me at [twitter](http://www.twitter.com/ajaygautam42) or [Linked-in](http://www.linkedin.com/in/ajaygautam42);
 
 ## All Posts
 
