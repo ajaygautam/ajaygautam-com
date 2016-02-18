@@ -82,6 +82,7 @@ Loop through:
 The loop above ran for about 7 days (about 166 hours), created just over 1200 client environments, and performed a little over 524,000 commits. Thats about 3156 commits per hour averaged over the life of the test.
 
 At the end of the test, all files are in sync. Perforce has been able to handle all the load we could throw at it:
+
 * No merge conflict that could not be auto-resolved
 * No Ghost commits
 * Successful merges in any direction
