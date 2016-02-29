@@ -2,7 +2,9 @@
 layout: post
 title: "Leveraging Perforce Branch Mappings"
 description: ""
-category: 
+category:
 tags: []
 ---
 {% include JB/setup %}
+
+Go go gadget go.
