@@ -3,6 +3,7 @@ layout: post
 title: "Using Derby DB with Hibernate"
 description: "Using Derby DB with Hibernate"
 category: Java
+comments: true
 tags: [java,hibernate,derby]
 ---
 {% include JB/setup %}

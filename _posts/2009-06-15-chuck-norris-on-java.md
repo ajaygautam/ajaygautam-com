@@ -3,6 +3,7 @@ layout: post
 title: "Chuck Norris on Java"
 description: ""
 category: Java
+comments: true
 tags: [java,funny,ChuckNorris]
 ---
 {% include JB/setup %}
