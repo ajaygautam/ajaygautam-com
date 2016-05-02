@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-tagline: Building awesome software
+tagline: Exploring and implementing best practices in building enterprise grade software
 ---
 {% include JB/setup %}
 
