@@ -31,7 +31,7 @@ Lots of interesting options here, however, keeping in line with our target state
 
 Can't locate anything like this on the "API Manager" page. Back to google search.
 
-## Step 4: Abandoned
+## Step 3: Abandoned
 
 Well, looks like [Google Finance does not support getting stock quotes](http://stackoverflow.com/questions/527703/how-can-i-get-stock-quotes-using-google-finance-api). Not sure if there is any point to continuing this effort on google cloud.
 
