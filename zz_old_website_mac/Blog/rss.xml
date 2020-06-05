@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Ajay Gautam’s Blog</title>
+    <link>http://www.ajaygautam.com/Ajay_Gautam/Blog/Blog.html</link>
+    <description>Random stuff...</description>
+    <generator>iWeb 3.0</generator>
+    <image>
+      <url>http://www.ajaygautam.com/Ajay_Gautam/Blog/Blog_files/apple-keyboard.jpg</url>
+      <title>Ajay Gautam’s Blog</title>
+      <link>http://www.ajaygautam.com/Ajay_Gautam/Blog/Blog.html</link>
+    </image>
+    <item>
+      <title>Got my new iMac today</title>
+      <link>http://www.ajaygautam.com/Ajay_Gautam/Blog/Entries/2009/2/12_Got_my_new_iMac_today.html</link>
+      <guid isPermaLink="false">142a59aa-ed7a-4888-84f8-0281e561228b</guid>
+      <pubDate>Thu, 12 Feb 2009 15:33:37 -0500</pubDate>
+      <description>&lt;a href=&quot;http://www.ajaygautam.com/Ajay_Gautam/Blog/Entries/2009/2/12_Got_my_new_iMac_today_files/apple-imac-aluminum.jpg&quot;&gt;&lt;img src=&quot;http://www.ajaygautam.com/Ajay_Gautam/Blog/Media/object011_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:183px; height:137px;&quot;/&gt;&lt;/a&gt;Sometimes, you come across a device that makes you wonder how you ever lived without it. iMac is one such device.&lt;br/&gt;Got it today. And already created this site!</description>
+      <enclosure url="http://www.ajaygautam.com/Ajay_Gautam/Blog/Entries/2009/2/12_Got_my_new_iMac_today_files/apple-imac-aluminum.jpg" length="26933" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
