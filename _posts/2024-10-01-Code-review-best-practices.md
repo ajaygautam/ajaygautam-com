@@ -1,4 +1,4 @@
-This document capture my thought process when I code and/or review code comments.
+This document capture my thought process when I code and/or review code commits / PRs / MRs.
  
 ## Coding best practices
 * DRY - Don't Repeat Yourself!
