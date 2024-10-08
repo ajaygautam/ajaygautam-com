@@ -34,8 +34,10 @@ This document capture my thought process when I code and/or review code commits 
  
 ## Logging best practices
 * Know that your logs will be ingested by a log aggregator (splunk? Dynatrace? etc). Write logs accordingly.
+    * Logs should make it easier to "find a needle in a haystack"
     * Less log messages with more info per log is better
     * Put more context info in each log, so searching is easier
+    * If someone is searching for an identifier (employeeId, trackingNumber, locationId, etc)... all relevant logs must have the identifiers logged so they show up in the search results.
 * Think for logs as an event stream
 * For better logging... think about logging from a support person/team point of view - trying to figure out what happened just by looking at the logs.
 * After the product is deployed, can someone look at your log messages and follow what's going on... without having to look at code? Is there enough information provided in terms of values and decision points?
