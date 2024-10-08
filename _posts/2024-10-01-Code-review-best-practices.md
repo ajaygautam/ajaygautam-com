@@ -12,6 +12,8 @@ This document capture my thought process when I code and/or review code comments
 * If building distributed software, follow [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 * Write conditions in positives instead of negatives
 * Avoid using `null` values. Wherever possible, add `@NotNull` and use `Optional<>`
+* Use lombok to remove boilerpate code!
+    * Example of removing boiler plate code without sacficing best practices (Section: Boilerplate buster Lombok): https://odrotbohm.de/2013/11/why-field-injection-is-evil/
  
 ## Comments best practices
 * Code comments are (mostly) a violation of DRY (Don't Repeat Yourself)
@@ -32,6 +34,8 @@ This document capture my thought process when I code and/or review code comments
  
 ## Logging best practices
 * Know that your logs will be ingested by a log aggregator (splunk? Dynatrace? etc). Write logs accordingly.
+    * Less log messages with more info per log is better
+    * Put more context info in each log, so searching is easier
 * Think for logs as an event stream
 * For better logging... think about logging from a support person/team point of view - trying to figure out what happened just by looking at the logs.
 * After the product is deployed, can someone look at your log messages and follow what's going on... without having to look at code? Is there enough information provided in terms of values and decision points?
@@ -42,10 +46,11 @@ This document capture my thought process when I code and/or review code comments
     * INFO: Everything that a person needs to read to understand the flow of code / (summarized) data items / decision points
     * DEBUG: More information / more data that explain the process more
 * Specific libraries
-    * Don't check-in DEBUG for hibernate. This generates a LOT of log noise!
+    * Don't commit config with DEBUG level for hibernate. This generates a LOT of log noise! (good for local debugging though)
  
 ## SQL best practices
 * While adding SQL to Java code, use triple double quotes. This makes copy pasting to/from SQL tools easier https://stackoverflow.com/questions/28356801/triple-quotes-in-java-like-scala
+* Use [JPA query methods](https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html) to auto create sql based on declarations.
  
 ## Git best practices
 * Must NOT have commented code in a pull request
@@ -56,7 +61,8 @@ This document capture my thought process when I code and/or review code comments
  
 ## Swagger / API documentation best practices
 * APIs are publicly facing and should have good documentation
-* Must describe what the API does.
+* Must describe what the API does
 * Must cover edge cases, if any
 * Must specify return schema
 * Must specify return / error codes with details
+* Anything else you can think of that will help the consumer of this API
