@@ -12,6 +12,7 @@ This document capture my thought process when I code and/or review code commits 
 * If building distributed software, follow [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 * Write conditions in positives instead of negatives
 * Avoid using `null` values. Wherever possible, add `@NotNull` and use `Optional<>`
+* Services class should have business code only, extract other code to util classes.
 * Use lombok to remove boilerpate code!
     * Example of removing boiler plate code without sacficing best practices (Section: Boilerplate buster Lombok): https://odrotbohm.de/2013/11/why-field-injection-is-evil/
  
